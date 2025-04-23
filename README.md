@@ -119,16 +119,16 @@ int main() {
         arr.push_back(num);
     }
 
-    // Sıralama öncesi diziyi gösteririz
+    // Sıralama öncesi diziyi gösteririz sonra heapSort'u diziye uygukayıp son adım olarak sıralanmış diziyi gösteririrz.
     cout << "\nSiralama oncesi dizi: ";
     for (int num : arr) {
         cout << num << " ";
     }
 
-    // Heap Sort uygulaması
+  
     heapSort(arr);
 
-    // Sıralama sonrası diziyi gösterir
+    // Sıralama sonrası diziyi göstermek için son adımımız
     cout << "\nSiralama sonrasi dizi: ";
     for (int num : arr) {
         cout << num << " ";
